@@ -1,2 +1,2 @@
 # Autonomous-matatu-simulator
-Autonomous matatu simulator that dodges obstacles and stops where there is a zebra crossing 
+OUR Code is all about the matatu like forming a game where by the moving is being controlled by the coding
