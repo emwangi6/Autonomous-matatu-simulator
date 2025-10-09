@@ -162,7 +162,7 @@ def main():
             elif event.type == pygame.KEYDOWN and paused:
                 if event.key == pygame.K_SPACE:  # resume game
                     paused = False
-                    zebra_ignore_timer = 60  # ignore zebra for 1 second (30 FPS * 2 = ~1s)
+                    zebra_ignore_timer = 60  # ignore zebra for 1 second 
                     if current_zebra in zebra_crossings:
                         zebra_crossings.remove(current_zebra)  # remove zebra
                     current_zebra = None  # reset
@@ -201,3 +201,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
